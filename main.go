@@ -3,15 +3,15 @@ package main
 
 // Import the required packages for this program.
 import (
-	"fmt"           // fmt provides formatted printing to the console.
-	"io"            // io provides basic input/output utilities like copying streams.
-	"net/http"      // net/http lets us make HTTP requests to fetch web pages and files.
-	"net/url"       // net/url helps parse and resolve URLs relative to a base URL.
-	"os"            // os lets us interact with the filesystem, like creating folders and files.
-	"path"          // path helps manipulate URL/file paths safely.
-	"regexp"        // regexp lets us use regular expressions to find links in HTML.
-	"strings"       // strings provides helper functions for string manipulation.
-	"time"          // time lets us add delays between requests to be polite to the server.
+	"fmt"      // fmt provides formatted printing to the console.
+	"io"       // io provides basic input/output utilities like copying streams.
+	"net/http" // net/http lets us make HTTP requests to fetch web pages and files.
+	"net/url"  // net/url helps parse and resolve URLs relative to a base URL.
+	"os"       // os lets us interact with the filesystem, like creating folders and files.
+	"path"     // path helps manipulate URL/file paths safely.
+	"regexp"   // regexp lets us use regular expressions to find links in HTML.
+	"strings"  // strings provides helper functions for string manipulation.
+	"time"     // time lets us add delays between requests to be polite to the server.
 
 	"golang.org/x/net/html" // html provides an HTML tokenizer/parser for extracting links.
 )
